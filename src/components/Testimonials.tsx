@@ -1,5 +1,14 @@
-import Image from "next/image";
 import { TESTIMONIALS } from "@/lib/content";
+
+function Stars({ rating }: { rating: number }) {
+  return (
+    <div className="flex gap-0.5 text-accent">
+      {Array.from({ length: 5 }).map((_, i) => (
+        <span key={i}>{i < rating ? "★" : "☆"}</span>
+      ))}
+    </div>
+  );
+}
 
 export default function Testimonials() {
   return (
@@ -9,29 +18,20 @@ export default function Testimonials() {
           O que meus <span className="text-accent">clientes dizem</span>
         </h2>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {TESTIMONIALS.map((t) => (
             <div
               key={t.name}
               className="rounded-2xl border border-border bg-surface-2 p-6"
             >
               <div className="flex items-center gap-3">
-                {t.image ? (
-                  <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-accent">
-                    <Image
-                      src={t.image}
-                      alt={t.name}
-                      fill
-                      sizes="40px"
-                      className="object-cover"
-                    />
-                  </div>
-                ) : (
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-sm font-bold text-accent-foreground">
-                    {t.initials}
-                  </div>
-                )}
-                <p className="text-sm font-semibold">{t.name}</p>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-sm font-bold text-accent-foreground">
+                  {t.initials}
+                </div>
+                <div>
+                  <p className="text-sm font-semibold">{t.name}</p>
+                  <Stars rating={t.rating} />
+                </div>
               </div>
               <p className="mt-4 text-sm text-muted">&ldquo;{t.quote}&rdquo;</p>
             </div>

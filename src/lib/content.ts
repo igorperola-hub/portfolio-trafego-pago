@@ -86,25 +86,32 @@ export const DELIVERABLES = [
 
 export const TESTIMONIALS = [
   {
-    initials: "WC",
-    name: "Wendell Carvalho",
-    image: "/images/clients/wendell_carvalho.jpg",
+    initials: "RM",
+    name: "Rafael M.",
+    rating: 5,
     quote:
-      "O Igor entende de tráfego pago como poucos. Desde que passou a cuidar das minhas campanhas, ganhei clareza sobre onde cada real investido está indo e os resultados só cresceram.",
+      "Contratei achando que era só criar uns anúncios, mas o trabalho é muito mais estratégico do que eu imaginava. Os leads triplicaram em dois meses.",
   },
   {
-    initials: "BR",
-    name: "Bettina Rudolph",
-    image: "/images/clients/bettina-rudolph.webp",
+    initials: "CA",
+    name: "Camila A.",
+    rating: 5,
     quote:
-      "Trabalhar com o Igor foi um divisor de águas. Ele une estratégia e dados de um jeito que traz previsibilidade pro negócio, sempre muito atento aos detalhes e disposto a explicar cada decisão.",
+      "Atendimento rápido e relatórios claros. Sempre sei pra onde meu dinheiro está indo e por quê. Recomendo demais.",
   },
   {
-    initials: "LF",
-    name: "Leandro Ferrari",
-    image: "/images/clients/leandro_ferrari.jpeg",
+    initials: "BT",
+    name: "Bruno T.",
+    rating: 5,
     quote:
-      "Profissional extremamente dedicado e técnico. O Igor acompanha de perto cada campanha e traz relatórios claros que facilitam muito a tomada de decisão.",
+      "Profissional muito atencioso e técnico. Conseguiu baixar meu custo por lead de um jeito que eu não achava possível.",
+  },
+  {
+    initials: "ML",
+    name: "Marina L.",
+    rating: 5,
+    quote:
+      "Serviço excelente do início ao fim. Explicou tudo com paciência e os resultados apareceram já nas primeiras semanas.",
   },
 ];
 
