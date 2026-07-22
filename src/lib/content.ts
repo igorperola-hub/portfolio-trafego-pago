@@ -125,6 +125,9 @@ export const CLIENTS = [
   { name: "Raony Rossetti", image: "/images/clients/raony_rossetti.jpg" },
   { name: "André Menezes", image: "/images/clients/andre_menezes.jpg" },
   { name: "Janguie Diniz", image: "/images/clients/janguie_diniz.jpg" },
+  { name: "Fill Rocha", image: "/images/clients/fill_rocha.jpeg" },
+  { name: "Marco Lang", image: "/images/clients/marco_lang.jpg" },
+  { name: "Professor Alisson Marques", image: "/images/clients/alisson_marques.jpeg" },
 ];
 
 export const FAQ_ITEMS = [
