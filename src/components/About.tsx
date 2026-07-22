@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { NAME, WHATSAPP_LINK, LINKEDIN_LINK } from "@/lib/content";
 
 export default function About() {
@@ -16,11 +17,6 @@ export default function About() {
             Sou {NAME}, gestor de tráfego pago e analista de performance e
             mídia paga, dedicado a impulsionar o sucesso de negócios locais e
             digitais. Ajudo você a transformar cliques em clientes.
-          </p>
-
-          <p className="mt-4 text-muted">
-            [Espaço reservado para trajetória profissional: experiências
-            anteriores, empresas, nichos atendidos e resultados relevantes.]
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
@@ -57,8 +53,14 @@ export default function About() {
         </div>
 
         <div className="order-1 mx-auto w-full max-w-sm lg:order-2">
-          <div className="flex aspect-[4/5] items-center justify-center rounded-3xl border border-border bg-surface text-sm text-muted">
-            [Sua foto aqui]
+          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
+            <Image
+              src="/images/igor_hero.jpg"
+              alt={NAME}
+              fill
+              sizes="(min-width: 1024px) 384px, 100vw"
+              className="object-cover"
+            />
           </div>
         </div>
       </div>

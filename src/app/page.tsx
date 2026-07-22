@@ -6,7 +6,6 @@ import NameMarquee from "@/components/NameMarquee";
 import Deliverables from "@/components/Deliverables";
 import Testimonials from "@/components/Testimonials";
 import ClientsPortfolio from "@/components/ClientsPortfolio";
-import Certification from "@/components/Certification";
 import About from "@/components/About";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
@@ -24,7 +23,6 @@ export default function Home() {
         <Deliverables />
         <Testimonials />
         <ClientsPortfolio />
-        <Certification />
         <About />
         <FAQ />
         <FinalCTA />
