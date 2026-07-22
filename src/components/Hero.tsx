@@ -25,9 +25,9 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg text-muted">
-            Com anos de experiência, milhares de testes e milhões
-            gerenciados. Posso trazer clareza, previsibilidade e segurança em
-            cada tomada de decisão no marketing do seu negócio.
+            Com anos de experiência, milhares de testes e milhões em
+            anúncios gerenciados, posso trazer clareza, previsibilidade e
+            segurança nos resultados do seu negócio.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
