@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { TESTIMONIALS } from "@/lib/content";
 
 export default function Testimonials() {
@@ -11,17 +12,20 @@ export default function Testimonials() {
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {TESTIMONIALS.map((t) => (
             <div
-              key={t.handle}
+              key={t.name}
               className="rounded-2xl border border-border bg-surface-2 p-6"
             >
               <div className="flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-sm font-bold text-accent-foreground">
-                  {t.initials}
+                <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-accent">
+                  <Image
+                    src={t.image}
+                    alt={t.name}
+                    fill
+                    sizes="40px"
+                    className="object-cover"
+                  />
                 </div>
-                <div>
-                  <p className="text-sm font-semibold">{t.name}</p>
-                  <p className="text-xs text-muted">{t.handle}</p>
-                </div>
+                <p className="text-sm font-semibold">{t.name}</p>
               </div>
               <p className="mt-4 text-sm text-muted">&ldquo;{t.quote}&rdquo;</p>
             </div>

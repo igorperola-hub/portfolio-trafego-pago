@@ -1,11 +1,4 @@
-import {
-  NAME,
-  TAGLINE,
-  WHATSAPP_LINK,
-  INSTAGRAM_LINK,
-  INSTAGRAM_HANDLE,
-  LINKEDIN_LINK,
-} from "@/lib/content";
+import { NAME, TAGLINE, WHATSAPP_LINK, LINKEDIN_LINK } from "@/lib/content";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -33,7 +26,7 @@ export default function Footer() {
               <a href="#servicos">Google Ads</a>
             </li>
             <li>
-              <a href="#servicos">Criativos de Ads</a>
+              <a href="#servicos">Dashboards e Automações</a>
             </li>
             <li>
               <a href="#servicos">Consultoria em Tráfego</a>
@@ -47,11 +40,6 @@ export default function Footer() {
             <li>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
                 WhatsApp
-              </a>
-            </li>
-            <li>
-              <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer">
-                {INSTAGRAM_HANDLE}
               </a>
             </li>
             <li>

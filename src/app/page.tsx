@@ -4,8 +4,6 @@ import PlatformsMarquee from "@/components/PlatformsMarquee";
 import Services from "@/components/Services";
 import NameMarquee from "@/components/NameMarquee";
 import Deliverables from "@/components/Deliverables";
-import Method from "@/components/Method";
-import CreativesPortfolio from "@/components/CreativesPortfolio";
 import Testimonials from "@/components/Testimonials";
 import ClientsPortfolio from "@/components/ClientsPortfolio";
 import Certification from "@/components/Certification";
@@ -24,8 +22,6 @@ export default function Home() {
         <Services />
         <NameMarquee />
         <Deliverables />
-        <Method />
-        <CreativesPortfolio />
         <Testimonials />
         <ClientsPortfolio />
         <Certification />

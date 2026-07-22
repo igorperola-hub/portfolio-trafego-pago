@@ -1,4 +1,4 @@
-import { NAME, WHATSAPP_LINK, INSTAGRAM_LINK, LINKEDIN_LINK } from "@/lib/content";
+import { NAME, WHATSAPP_LINK, LINKEDIN_LINK } from "@/lib/content";
 
 export default function About() {
   return (
@@ -44,14 +44,6 @@ export default function About() {
               className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition hover:brightness-90"
             >
               Falar no WhatsApp
-            </a>
-            <a
-              href={INSTAGRAM_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-border px-6 py-3 text-sm font-semibold transition hover:border-accent"
-            >
-              Instagram
             </a>
             <a
               href={LINKEDIN_LINK}

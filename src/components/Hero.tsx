@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { NAME, STATS, WHATSAPP_LINK } from "@/lib/content";
 
 export default function Hero() {
@@ -59,6 +60,17 @@ export default function Hero() {
         </div>
 
         <div className="relative mx-auto w-full max-w-sm">
+          <div className="absolute -left-6 -top-10 z-10 h-28 w-28 animate-float overflow-hidden rounded-full border-4 border-accent shadow-xl shadow-black/40 sm:h-32 sm:w-32">
+            <Image
+              src="/images/igor-hero.jpg"
+              alt={NAME}
+              fill
+              sizes="128px"
+              className="object-cover"
+              priority
+            />
+          </div>
+
           <div className="rounded-3xl border border-border bg-surface p-6 shadow-2xl shadow-black/40">
             <div className="mb-6 flex items-center justify-between">
               <span className="text-xs text-muted">Performance</span>

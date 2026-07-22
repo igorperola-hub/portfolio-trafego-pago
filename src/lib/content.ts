@@ -3,24 +3,20 @@ export const TAGLINE = "Tráfego Pago";
 export const WHATSAPP_TEXT = encodeURIComponent(
   "Olá! Vim pelo site e gostaria de uma análise gratuita!"
 );
-// TODO: substituir pelo número real de WhatsApp (formato 55DDDNUMERO)
-export const WHATSAPP_NUMBER = "5500000000000";
+export const WHATSAPP_NUMBER = "5511988563823";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_TEXT}`;
-export const INSTAGRAM_HANDLE = "@seu.instagram";
-export const INSTAGRAM_LINK = "https://www.instagram.com/";
-export const LINKEDIN_LINK = "https://www.linkedin.com/";
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/igorp%C3%A9rolasantos/";
 
 export const NAV_LINKS = [
   { label: "Serviços", href: "#servicos" },
-  { label: "Método", href: "#metodo" },
   { label: "Sobre", href: "#sobre" },
   { label: "FAQ", href: "#faq" },
 ];
 
 export const STATS = [
-  { value: "[X]+", label: "Anos de experiência" },
-  { value: "R$[XX]K+", label: "Em mídia paga administrada" },
-  { value: "[XX]+", label: "Negócios impactados" },
+  { value: "3+", label: "Anos de experiência" },
+  { value: "R$5M+", label: "Em mídia paga administrada" },
+  { value: "20+", label: "Negócios impactados" },
 ];
 
 export const PLATFORMS = ["Instagram", "WhatsApp", "Facebook", "Google Ads"];
@@ -39,10 +35,10 @@ export const SERVICES = [
       "Anúncios na rede de pesquisa e display para capturar intenção de compra.",
   },
   {
-    tag: "Criação",
-    title: "Criativos para Ads",
+    tag: "Dashboards e Automações",
+    title: "Dashboards personalizados com inteligência de dados",
     description:
-      "Peças em imagem e vídeo focadas em conversão e no público certo.",
+      "Criação de dashboards sob medida para acompanhar performance e automatizar decisões com base em dados reais.",
   },
   {
     tag: "Consultoria",
@@ -76,79 +72,52 @@ export const DELIVERABLES = [
   },
   {
     number: "03",
-    title: "Criativos de Ads",
-    description:
-      "Peças estratégicas com pesquisa prévia de mercado, focadas na dor e no benefício do cliente.",
-  },
-  {
-    number: "04",
     title: "Consultoria em Tráfego Pago",
     description:
       "Diagnóstico estratégico completo com plano de ação personalizado para o seu negócio.",
   },
   {
-    number: "05",
+    number: "04",
     title: "Relatórios & Análise de Performance",
     description:
       "Relatórios periódicos com KPIs, CPL, ROAS e progressão histórica de resultados.",
   },
 ];
 
-export const METHOD_STEPS = [
-  {
-    icon: "🎯",
-    title: "Atrair",
-    description:
-      "Identificação do público ideal e criativos pensados para capturar atenção na plataforma certa.",
-    tags: "Pesquisa de mercado · Definição de ICP · Criativos estratégicos",
-  },
-  {
-    icon: "🚀",
-    title: "Direcionar",
-    description:
-      "Segmentação inteligente e funil estruturado para levar as pessoas certas até o seu negócio.",
-    tags: "Segmentação avançada · Pixel & rastreamento · Estrutura de campanha",
-  },
-  {
-    icon: "💡",
-    title: "Converter",
-    description:
-      "Mensagens e ofertas que transformam interesse em cliente real, com otimização contínua.",
-    tags: "Otimização contínua · CRO · Relatórios de performance",
-  },
-];
-
 export const TESTIMONIALS = [
   {
-    initials: "XX",
-    name: "[Nome do Cliente]",
-    handle: "@[handle_do_cliente]",
+    initials: "WC",
+    name: "Wendell Carvalho",
+    image: "/images/clients/wendell-carvalho.jpg",
     quote:
-      "[Depoimento real do cliente será inserido aqui após aprovação e coleta.]",
+      "O Igor entende de tráfego pago como poucos. Desde que passou a cuidar das minhas campanhas, ganhei clareza sobre onde cada real investido está indo e os resultados só cresceram.",
   },
   {
-    initials: "XX",
-    name: "[Nome do Cliente]",
-    handle: "@[handle_do_cliente]",
+    initials: "BR",
+    name: "Bettina Rudolph",
+    image: "/images/clients/bettina-rudolph.jpg",
     quote:
-      "[Depoimento real do cliente será inserido aqui após aprovação e coleta.]",
+      "Trabalhar com o Igor foi um divisor de águas. Ele une estratégia e dados de um jeito que traz previsibilidade pro negócio, sempre muito atento aos detalhes e disposto a explicar cada decisão.",
   },
   {
-    initials: "XX",
-    name: "[Nome do Cliente]",
-    handle: "@[handle_do_cliente]",
+    initials: "LF",
+    name: "Leandro Ferrari",
+    image: "/images/clients/leandro-ferrari.jpg",
     quote:
-      "[Depoimento real do cliente será inserido aqui após aprovação e coleta.]",
+      "Profissional extremamente dedicado e técnico. O Igor acompanha de perto cada campanha e traz relatórios claros que facilitam muito a tomada de decisão.",
   },
 ];
 
 export const CLIENTS = [
-  "[Cliente 1]",
-  "[Cliente 2]",
-  "[Cliente 3]",
-  "[Cliente 4]",
-  "[Cliente 5]",
-  "[Cliente 6]",
+  { name: "Wendell Carvalho", image: "/images/clients/wendell-carvalho.jpg" },
+  { name: "Bettina Rudolph", image: "/images/clients/bettina-rudolph.jpg" },
+  { name: "Leandro Ferrari", image: "/images/clients/leandro-ferrari.jpg" },
+  { name: "AUDI Florianópolis", image: "/images/clients/audi-florianopolis.png" },
+  { name: "Santé Wellness", image: "/images/clients/sante-wellness.png" },
+  { name: "Verena Cordeiro", image: "/images/clients/verena-cordeiro.jpg" },
+  { name: "Raony Rossetti", image: "/images/clients/raony-rossetti.jpg" },
+  { name: "André Menezes", image: "/images/clients/andre-menezes.jpg" },
+  { name: "Janguie Diniz", image: null },
 ];
 
 export const FAQ_ITEMS = [
