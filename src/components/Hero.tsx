@@ -25,9 +25,9 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg text-muted">
-            Sou {NAME}, gestor de tráfego pago e analista de performance.
-            Ajudo negócios locais e digitais a crescerem de forma previsível
-            com estratégia, dados e otimização contínua.
+            Com anos de experiência, milhares de testes e milhões
+            gerenciados. Posso trazer clareza, previsibilidade e segurança em
+            cada tomada de decisão no marketing do seu negócio.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
