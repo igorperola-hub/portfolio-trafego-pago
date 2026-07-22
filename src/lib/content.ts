@@ -88,36 +88,36 @@ export const TESTIMONIALS = [
   {
     initials: "WC",
     name: "Wendell Carvalho",
-    image: "/images/clients/wendell-carvalho.jpg",
+    image: "/images/clients/wendell_carvalho.jpg",
     quote:
       "O Igor entende de tráfego pago como poucos. Desde que passou a cuidar das minhas campanhas, ganhei clareza sobre onde cada real investido está indo e os resultados só cresceram.",
   },
   {
     initials: "BR",
     name: "Bettina Rudolph",
-    image: "/images/clients/bettina-rudolph.jpg",
+    image: "/images/clients/bettina-rudolph.webp",
     quote:
       "Trabalhar com o Igor foi um divisor de águas. Ele une estratégia e dados de um jeito que traz previsibilidade pro negócio, sempre muito atento aos detalhes e disposto a explicar cada decisão.",
   },
   {
     initials: "LF",
     name: "Leandro Ferrari",
-    image: "/images/clients/leandro-ferrari.jpg",
+    image: "/images/clients/leandro_ferrari.jpeg",
     quote:
       "Profissional extremamente dedicado e técnico. O Igor acompanha de perto cada campanha e traz relatórios claros que facilitam muito a tomada de decisão.",
   },
 ];
 
 export const CLIENTS = [
-  { name: "Wendell Carvalho", image: "/images/clients/wendell-carvalho.jpg" },
-  { name: "Bettina Rudolph", image: "/images/clients/bettina-rudolph.jpg" },
-  { name: "Leandro Ferrari", image: "/images/clients/leandro-ferrari.jpg" },
-  { name: "AUDI Florianópolis", image: "/images/clients/audi-florianopolis.png" },
-  { name: "Santé Wellness", image: "/images/clients/sante-wellness.png" },
-  { name: "Verena Cordeiro", image: "/images/clients/verena-cordeiro.jpg" },
-  { name: "Raony Rossetti", image: "/images/clients/raony-rossetti.jpg" },
-  { name: "André Menezes", image: "/images/clients/andre-menezes.jpg" },
-  { name: "Janguie Diniz", image: null },
+  { name: "Wendell Carvalho", image: "/images/clients/wendell_carvalho.jpg" },
+  { name: "Bettina Rudolph", image: "/images/clients/bettina-rudolph.webp" },
+  { name: "Leandro Ferrari", image: "/images/clients/leandro_ferrari.jpeg" },
+  { name: "AUDI Florianópolis", image: "/images/clients/audi_florianopolis.jpeg" },
+  { name: "Santé Wellness", image: "/images/clients/sante_wellness.jpeg" },
+  { name: "Verena Cordeiro", image: "/images/clients/verena_cordeiro.jpeg" },
+  { name: "Raony Rossetti", image: "/images/clients/raony_rossetti.jpg" },
+  { name: "André Menezes", image: "/images/clients/andre_menezes.jpg" },
+  { name: "Janguie Diniz", image: "/images/clients/janguie_diniz.jpg" },
 ];
 
 export const FAQ_ITEMS = [

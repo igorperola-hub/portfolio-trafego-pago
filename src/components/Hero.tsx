@@ -60,9 +60,9 @@ export default function Hero() {
         </div>
 
         <div className="relative mx-auto w-full max-w-sm">
-          <div className="absolute -left-6 -top-10 z-10 h-28 w-28 animate-float overflow-hidden rounded-full border-4 border-accent shadow-xl shadow-black/40 sm:h-32 sm:w-32">
+          <div className="absolute -left-8 -top-16 z-10 h-28 w-28 animate-float overflow-hidden rounded-full border-4 border-accent bg-surface shadow-xl shadow-black/40 sm:h-32 sm:w-32">
             <Image
-              src="/images/igor-hero.jpg"
+              src="/images/igor_hero.jpg"
               alt={NAME}
               fill
               sizes="128px"
