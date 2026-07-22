@@ -17,12 +17,12 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <ClientsPortfolio />
+        <Testimonials />
         <PlatformsMarquee />
         <Services />
         <NameMarquee />
         <Deliverables />
-        <Testimonials />
-        <ClientsPortfolio />
         <About />
         <FAQ />
         <FinalCTA />
